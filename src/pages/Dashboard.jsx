@@ -10,7 +10,7 @@ export default function Dashboard() {
   const tasks = useLoaderData();
 
   return (
-    <SimpleGrid padding="50" spacing="10" minChildWidth="300px">
+    <SimpleGrid spacing="10" minChildWidth="300px">
       {tasks && tasks.map( task => (
         <Card key={task.id} borderTop="8px" borderColor="purple.400" bg="white">
           <CardHeader>
