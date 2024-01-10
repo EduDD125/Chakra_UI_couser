@@ -20,7 +20,7 @@ export default function RootLayout() {
       
       <GridItem colSpan={{base: 6, lg: 4, xl: 5}}>
         <Navbar/>
-        <Outlet />
+        <Outlet/>
       </GridItem>
     </Grid>
   )
