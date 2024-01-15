@@ -18,7 +18,7 @@ export default function RootLayout() {
 
       </GridItem>
       
-      <GridItem  padding="50px" bg="white" colSpan={{base: 6, lg: 4, xl: 5}}>
+      <GridItem  pl="50px" pr="50px" pb="50px" bg="white" colSpan={{base: 6, lg: 4, xl: 5}}>
         <Navbar/>
         <Outlet/>
       </GridItem>
